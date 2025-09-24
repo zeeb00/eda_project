@@ -29,23 +29,24 @@ eda-cli ./examples/demo.csv \
   --outdir ./plots
 ```
 **Arguments:**
-path → path to CSV/TXT file
 
---delimiter → field delimiter (default ,)
+*path → path to CSV/TXT file*
 
---n-rows → limit number of rows parsed
+*--delimiter → field delimiter (default ,)*
 
---no-header → specify if file has no header row
+*--n-rows → limit number of rows parsed*
 
---head → preview N rows (default 5)
+*--no-header → specify if file has no header row*
 
---summary → print mean/median stats
+*--head → preview N rows (default 5)*
 
---hist <col> → generate histogram for a column
+*--summary → print mean/median stats*
 
---scatter-x <col> --scatter-y <col> → generate scatter plot
+*--hist <col> → generate histogram for a column*
 
---outdir → where to save plots (default plots/)
+*--scatter-x <col> --scatter-y <col> → generate scatter plot*
+
+*--outdir → where to save plots (default plots/)*
 
 ## Python API
 ```
