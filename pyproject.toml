@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eda_project"                 
+version = "0.1.0"
+description = "EDA toolkit for parsing and analysis"
+readme = "README.md"
+authors = [{ name = "Banafsheh Zee" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+  "pandas>=1.5",
+  "matplotlib>=3.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/zeeb00/eda_project"
+
+[project.scripts]
+eda-cli = "eda_project.main:main"    # package.module:function
+
+[tool.setuptools]
+packages = ["eda_project"]

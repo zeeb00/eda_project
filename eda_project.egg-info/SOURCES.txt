@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+eda_project/__init__.py
+eda_project/eda_toolkit.py
+eda_project/main.py
+eda_project/parser.py
+eda_project/plots.py
+eda_project.egg-info/PKG-INFO
+eda_project.egg-info/SOURCES.txt
+eda_project.egg-info/dependency_links.txt
+eda_project.egg-info/entry_points.txt
+eda_project.egg-info/requires.txt
+eda_project.egg-info/top_level.txt
